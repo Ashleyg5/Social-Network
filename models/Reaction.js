@@ -1,5 +1,5 @@
 const { Schema, Types } = require('mongoose');
-
+//blueprint to set up schema db for reactions
 const reactionSchema = new Schema(
   {
     reactionId: {

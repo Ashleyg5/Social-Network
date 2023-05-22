@@ -1,5 +1,5 @@
 const { Schema, model } = require('mongoose');
-
+//blueprint to set up schema db for users
 const userSchema = new Schema(
   {
     username: String,
@@ -24,7 +24,7 @@ const userSchema = new Schema(
     id: false,
   }
 );
-
+//added virtual for friend count
 userSchema
   .virtual('friendCount')
   .get(function () {

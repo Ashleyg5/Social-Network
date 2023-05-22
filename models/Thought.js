@@ -1,6 +1,6 @@
 const { Schema, model } = require('mongoose');
 const reactionSchema = require('./Reaction');
-
+//blueprint to set up schema db for thoughts
 const thoughtSchema = new Schema(
   {
     thoughtText: {
@@ -26,7 +26,7 @@ const thoughtSchema = new Schema(
     id: false,
   }
 );
-
+//created virtual for reaction count
 thoughtSchema
   .virtual('reactionCount')
   .get(function () {

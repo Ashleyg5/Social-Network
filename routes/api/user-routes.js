@@ -1,5 +1,5 @@
 const router = require('express').Router();
-
+//creating the users route to connet to the controllers
 const {
   getUsers,
   getSingleUser,

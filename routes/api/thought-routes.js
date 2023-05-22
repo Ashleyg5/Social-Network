@@ -1,5 +1,5 @@
 const router = require('express').Router();
-
+//creating the thoughts route to connet to the controllers
 const {
   getThoughts,
   getSingleThought,
