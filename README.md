@@ -29,7 +29,7 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 ## Description
   
-  This is challenge 18 of the bootcamp. We were tasked to create the backend of a social media application using MongoDB, express, node.js, and Mongoose. When the user opens the integrated terminal and open the server, they will be able to successfully test all the routes. The code gives users the ability to create users, view single users by ID, update users, and delete. Users will also be able to create thoughts, delete thoughts, create reactions, delete them. Finally, users will be able to add or remove friends from their friends list. I utilized several folders to create a config, controllers, models, and routes folders containing the pathways for the data. The schema is added to MongoDB and any changes are applied to the database.
+We were tasked to create the backend of a social media application using MongoDB, express, node.js, and Mongoose. When the user opens the integrated terminal and open the server, they will be able to successfully test all the routes. The code gives users the ability to create users, view single users by ID, update users, and delete. Users will also be able to create thoughts, delete thoughts, create reactions, delete them. Finally, users will be able to add or remove friends from their friends list. I utilized several folders to create a config, controllers, models, and routes folders containing the pathways for the data. The schema is added to MongoDB and any changes are applied to the database.
   
 
 ## Table of Contents 
